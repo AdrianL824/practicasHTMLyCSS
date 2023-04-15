@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+
+<h1>PROGRAMA PARA MEDIA EDADES</h1>
+
+<script>
+	function saltarLinea() {
+		document.write("<br> <br> "); 
+	}
+
+	function imprimir(frase){
+		document.write("<big>" + frase + "</big>"); 
+		saltarLinea(); 
+	}
+
+    var contador = 1;
+    while(contador <= 100){
+        if(contador % 2 == 0)
+        imprimir(contador);
+        contador++;
+    }
+
+    var contador2 = 2;
+    while(contador2 <= 100) {
+        imprimir(contador2);
+        contador2 = contador2 + 2; // incrementar de dos en dos
+    }
+
+</script>
