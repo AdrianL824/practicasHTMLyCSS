@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<h1>Diferencia de Edades</h1>
+
+<script>
+	function saltarLinea() {
+		document.write("<br> <br> <hr> <br> <br> "); //El uso de Hr crea una linea de separacion
+	} //Funciones en JS 
+
+	function imprimir(frase){
+		document.write("<big>" + frase + "</big>"); //hace mas grande la letra el uso de big
+		saltarLinea(); //Se puede agrar una funt dentro de otra
+	} //Funcion que te permite ingreso de datos para una funcion
+
+	var edadHermano = 27
+	var edadYo = 21
+	var diferencia = edadHermano - edadYo
+	var mensaje = "La diferencia de edades es de: " 
+
+	imprimir("Angela tiene: "+edadHermano);
+	imprimir("Adrian tiene: "+edadYo)
+	imprimir(mensaje+diferencia+ " años");
+
+</script>

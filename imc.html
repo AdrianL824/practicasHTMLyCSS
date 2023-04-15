@@ -1,0 +1,57 @@
+<meta charset="utf-8">
+
+<h1>Programa De IMC</h1>
+
+<script>
+
+	function saltarLinea() {
+		document.write("<br> <br>");
+	} //Funciones en JS 
+
+	function imprimir(frase){
+		document.write(frase);
+		saltarLinea(); //Se puede agrar una funt dentro de otra
+	}//Funcion que te permite ingreso de datos para una funcion
+
+	function calcularImc(peso, altura, nombre){
+		imc = peso / (altura * altura);
+		return imc //retorna el dato para una variable
+	}
+
+	//usando funciones mistas con datos normales
+	/*pesoCristian = 71
+	alturaCristian = 1.72
+	imcCristian = pesoCristian / (alturaCristian*alturaCristian)
+	imprimir("El IMC de Cristian es: "+ imcCristian)*/
+
+	//usando funciones completamente
+	//var imcCris = calcularImc(74,1.65);
+	
+	//var imcFer = calcularImc(79,1.90);
+
+	//imprimir("El promedio del imc calculado de Cris y fer es: "+ (imcCris+imcFer)/2);
+
+	nombre = prompt("Ingrese su nombre")
+	pesoInformado = prompt(nombre + ", informe su peso")
+	alturaInfomado = prompt(nombre + ", informe su altura")
+
+	imcCalculado = calcularImc(pesoInformado,alturaInfomado)
+
+	imprimir(nombre +", su imc calculado es: " + imcCalculado)
+
+	if(imcCalculado < 18.5){
+		imprimir("IMC abajo de lo recomendado");
+	}
+	if(imcCalculado >= 18.5 && imcCalculado < 25){
+		imprimir("IMC considerado aconsejado");
+	}
+	if(imcCalculado >= 25 && imcCalculado < 30){
+		imprimir("IMC considerado sobrepeso");
+	}
+	if(imcCalculado >= 30){
+		imprimir("IMC considerado como obesidad");
+	}
+
+
+
+</script>
