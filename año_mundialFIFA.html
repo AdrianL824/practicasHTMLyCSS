@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<h1>Programa De Año mundial de la FIFA</h1>
+
+<script>
+
+	function saltarLinea() {
+		document.write("<br> <br>");
+	} //Funciones en JS 
+
+	function imprimir(frase){
+		document.write(frase);
+		saltarLinea(); //Se puede agrar una funt dentro de otra
+	}//Funcion que te permite ingreso de datos para una funcion
+
+    var añoMundial = 1930;
+    var limite = parseInt(prompt("Ingrese el año limite para calcular"))
+
+    while (añoMundial <= limite){
+        imprimir("Hubo mundial de la FIFA en el año " + añoMundial)
+        añoMundial = añoMundial + 4;
+    }// bucles con while
+
+    alert("fin")
+
+</script>
