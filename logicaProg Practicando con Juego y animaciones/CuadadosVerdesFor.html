@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+    function dibujarCuadrado(x){
+        var pantalla = document.querySelector("canvas");
+        var pincel = pantalla.getContext("2d");
+        var posicion = 0;
+        for(var i = 1; i <= x ; i++){
+            
+            pincel.fillStyle = "green"; //propiedad
+            pincel.fillRect(posicion,0,50,50); //funcion
+            pincel.strokeStyle = "black";
+            pincel.strokeRect(posicion,0,50,50)
+            posicion = posicion + 50;
+        }
+        
+    }
+    
+    dibujarCuadrado(13);
+    
+</script>

@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+
+    pincel.fillStyle = "lightgrey"; //propiedad
+    pincel.fillRect(0,0,600,400); //funcion
+
+    pincel.fillStyle = "darkgreen"; //propiedad
+    pincel.fillRect(125,50,325,300); //funcion
+    
+    //ojos
+    pincel.fillStyle = "black"; //propiedad
+    pincel.fillRect(175,100,75,75); //funcion
+
+    pincel.fillStyle = "black"; //propiedad
+    pincel.fillRect(325,100,75,75); //funcion
+
+    //nariz
+    pincel.fillStyle = "black"; //propiedad
+    pincel.fillRect(250,175,75,100); //funcion
+
+    //Boca
+    pincel.fillStyle = "black"; //propiedad
+    pincel.fillRect(200,225,50,125); //funcion
+
+    pincel.fillStyle = "black"; //propiedad
+    pincel.fillRect(325,225,50,125); //funcion
+
+</script>
