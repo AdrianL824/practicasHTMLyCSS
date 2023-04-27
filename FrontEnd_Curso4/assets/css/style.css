@@ -1,0 +1,55 @@
+body{
+    
+}
+/* css para una etiqueta de HTML */
+
+#banner{ 
+    width: 100%;
+}
+/* Css utilizando ID */
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
+
+.mision{
+    font-size: 20px;
+}
+/* css utilizando ID */
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.imgDiferenciales{
+    width: 50%;
+}
