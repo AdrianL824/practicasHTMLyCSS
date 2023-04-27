@@ -1,25 +1,23 @@
-body{
-    
+.titlePrin{
+    padding-left: 30px;
 }
-/* css para una etiqueta de HTML */
 
 #banner{ 
     width: 100%;
-}
-/* Css utilizando ID */
+}/* Css utilizando ID */
 
 .principal{
     background: #cccccc;
     padding: 20px;
 }
 
-h1{
+.titleCenter{
     text-align: center;
 }
 
 p{
     text-align: center;
-}
+}/* css para una etiqueta de HTML */
 
 em strong{
     color: red;
@@ -33,10 +31,6 @@ em strong{
 .diferenciales{
     background: #FFFFFF;
     padding: 30px;
-}
-
-h2{
-    text-align: center;
 }
 
 .items{
