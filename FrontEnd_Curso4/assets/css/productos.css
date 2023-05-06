@@ -80,3 +80,16 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+    text-align: center;
+    /* background: url(assets/img/bg.jpg);*/ /*para imagenes pero no funciona */
+    background: #464646;
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
