@@ -1,0 +1,49 @@
+.titlePrin{
+    padding-left: 30px;
+}
+
+#banner{ 
+    width: 100%;
+}/* Css utilizando ID */
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+
+.titleCenter{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}/* css para una etiqueta de HTML */
+
+em strong{
+    color: red;
+}
+
+.mision{
+    font-size: 20px;
+}
+/* css utilizando ID */
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.imgDiferenciales{
+    width: 50%;
+}
