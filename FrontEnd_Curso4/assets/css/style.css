@@ -34,9 +34,9 @@ nav a:hover{
 }
 
 .productos{
-    width: 70%;
+    width: 940px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .productos li{
@@ -153,4 +153,37 @@ thead{
 td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+/* Css para Home */
+
+.banner{
+    width: 100%;
+}
+
+.titlePrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+/* .utencilios{
+    width: 120px;
+
+} */
+
+.imgDiferenciales{
+    width: 60%;
 }
