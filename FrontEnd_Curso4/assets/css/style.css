@@ -160,6 +160,25 @@ td, th{
     width: 100%;
 }
 
+/* Etiquedato especifico avanzado
+
+main > p{
+    background: red;
+    width: calc(40% - 24px): 
+}/*Para el hijo directo de la primera etiqueta
+
+img + p{
+    background: yellow;
+}Para el siguiente de la primera etiqueta
+
+img ~ p{
+    background: green;
+}Para todos despues de la primera etiqueta
+
+.principal p:not(.mision){
+    background: palegreen;
+}Para hacer excepsiones en la primera etiqueta */
+
 .principal{
     padding: 3em 0;
     background: #fefefe;
