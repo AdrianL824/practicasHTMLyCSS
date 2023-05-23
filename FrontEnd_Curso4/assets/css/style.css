@@ -191,6 +191,7 @@ img ~ p{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: #234567;
 }
 
 .titlePrincipal:first-letter{
@@ -260,6 +261,13 @@ img ~ p{
 
 .imgDiferenciales{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000,
+    10px 10px 30px 10px #111166;
+}
+
+.imgDiferenciales:hover{
+    opacity: 0.8;
 }
 
 .video{
