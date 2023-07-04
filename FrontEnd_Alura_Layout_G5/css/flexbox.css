@@ -1,0 +1,9 @@
+.headerPrincipal .container{
+    display: flex; /* Hace que los componentes de pongan en linea */
+    align-items: center;
+    justify-content: space-between; /* genera un espacio entre los componentes */
+}
+
+.headerPrincipal-nav{
+    display: flex;
+}
