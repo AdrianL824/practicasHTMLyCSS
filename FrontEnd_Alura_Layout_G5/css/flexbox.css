@@ -36,3 +36,17 @@
     height: 255px;
     flex-wrap: wrap; /*Hace que al llegar a la altura maxima salte de columna*/
 }
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    /* justify-content: space-around;
+    flex-direction: row;
+    width: 900px; */
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+
+}
