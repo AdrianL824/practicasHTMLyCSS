@@ -1,19 +1,21 @@
-.headerPrincipal .container{
-    display: flex; /* Hace que los componentes de pongan en linea */
+.headerPrincipal .container {
+    display: flex;
+    /* Hace que los componentes de pongan en linea */
     align-items: center;
-    justify-content: space-between; /* genera un espacio entre los componentes */
+    justify-content: space-between;
+    /* genera un espacio entre los componentes */
 }
 
-.headerPrincipal-nav{
+.headerPrincipal-nav {
     display: flex;
 }
 
-.rodapePrincipal-patrocinadores .container{
+.rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
 }
 
-.rodapePrincipal-patrocinadores-list{
+.rodapePrincipal-patrocinadores-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -21,32 +23,90 @@
     margin-right: 5%;
 }
 
-.rodapePrincipal-contatoForm{
+.rodapePrincipal-contatoForm {
     width: 25%;
 
 }
 
-.rodapePrincipal-contatoForm-fieldset{
+.rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
 
-.rodapePrincipal-navMap-list{
+.rodapePrincipal-navMap-list {
     display: flex;
-    flex-direction: column; /*Cambia a la alimiacion en columnas*/
+    flex-direction: column;
+    /*Cambia a la alimiacion en columnas*/
     height: 255px;
-    flex-wrap: wrap; /*Hace que al llegar a la altura maxima salte de columna*/
+    flex-wrap: wrap;
+    /*Hace que al llegar a la altura maxima salte de columna*/
 }
 
-.contenidoPrincipal-cursos{
+.contenidoPrincipal-cursos {
     display: flex;
-    /* justify-content: space-around;
-    flex-direction: row;
-    width: 900px; */
     flex-wrap: wrap;
 }
 
-.contenidoPrincipal-cursos-link{
+.contenidoPrincipal-cursos-link {
     display: flex;
     width: 23%;
 
+}
+
+.videoSobre .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+}
+
+.videoSobre-button {
+    width: 100%;
+    margin-top: 20%;
+}
+
+/* Responsive */
+@media (max-width:780px) {
+    .headerPrincipal .container {
+        flex-direction: column;/* Hace que los componentes flex se pongan en columnas */
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list {
+        height: auto;
+        flex-wrap: nowrap;
+        /* width: 100%; */
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+    }
+
+    .rodapePrincipal-patrocinadores-list {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
 }
