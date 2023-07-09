@@ -63,8 +63,8 @@
 }
 
 .videoSobre-video{
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-grow: 1; /*Divide un espacio y da un valor*/
+    flex-shrink: 1;  /*Otra forma flex: 0 1 30% grow shrink y tamaño*/
 }
 
 .videoSobre-sobre-list{
